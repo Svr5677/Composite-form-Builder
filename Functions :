@@ -1,0 +1,53 @@
+🛠 Tech Stack
+React 18
+
+Vite (development bundler)
+
+TypeScript
+
+Tailwind CSS (utility-first CSS framework)
+
+Framer Motion (animation library)
+
+📌 Features
+🎯 Multi-step form: 4 steps — Personal Info, Details, Customize, Review
+
+💾 Form state management using local useState
+
+💅 Clean UI with Tailwind styling
+
+🎬 Smooth animations with Framer Motion
+
+🔁 Step navigation with back and next controls
+
+✅ Final form preview and submit alert
+
+📂 Key Files Description
+src/App.tsx
+Root component that toggles between Welcome screen and FormWizard
+
+src/pages/WelcomePage.tsx
+Landing page with animation and "Start" button
+
+src/pages/FormWizard.tsx
+The main form wizard logic: inputs, navigation, and preview
+
+src/main.tsx
+React root rendering + global styles
+
+index.html
+Entry point with root <div>
+
+tailwind.config.ts
+Tailwind setup for class scanning
+
+vite.config.ts
+Vite dev server and plugin setup
+
+🧪 Testing Locally
+Run npm run dev and open http://localhost:5173
+
+Fill the form step-by-step
+
+Submit at the final step to trigger alert
+
